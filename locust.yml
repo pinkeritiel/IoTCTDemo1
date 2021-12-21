@@ -1,0 +1,11 @@
+execution:
+- executor: locust
+  concurrency: 5
+  ramp-up: 1m
+  iterations: 2
+  scenario: example
+
+scenarios:
+  example:
+    default-address: https://www.demoblaze.com/
+    script: testEntries.py
