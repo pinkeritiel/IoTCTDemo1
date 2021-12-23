@@ -3,7 +3,7 @@ execution:
 - executor: locust
   concurrency: 10
   hold-for: 2m
-  iterations: 15
+  iterations: 400
   scenario: example
 
 scenarios:
